@@ -1,0 +1,67 @@
+:root {
+    --header-font-family:"Roboto", sans-serif;
+}
+
+
+
+h1 {
+    font-family: var(--header-font-family);
+    font-weight: 700;
+    font-size: 72px;
+    color: #ffff;
+    line-height: 84.38px;
+    letter-spacing: 10px;
+    margin: 0;
+}
+
+h2 {
+   font-family: var(--header-font-family);
+   font-size: 24px;
+   font-weight: 700;
+   color: #ffff;
+   line-height: 28.13px;
+   letter-spacing: 2px;
+   margin: 0;
+}
+
+main {
+    background-color:#1B1B1B;
+    padding-top: 60px;
+    
+}
+
+
+.hero p {
+   font-family: var(--header-font-family); 
+   font-weight: 400;
+   font-size: 19px;
+   line-height: 30px;
+   color: #ffff;
+   opacity: 0.7;
+   margin-top: 30px;
+}
+
+.btn-branding {
+    background-color: #ffff;
+    font-weight: 700;
+    color: #272044;;
+    border-radius: 30px;
+    padding: 15px 45px;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 3px;
+}
+
+.hero {
+    background-image: url(images/bg.png);
+    text-align: center;
+    color: #ffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px 0;
+}
+
+.whole-page {
+    background-color:#1B1B1B;
+}
